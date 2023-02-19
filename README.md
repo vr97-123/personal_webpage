@@ -7,6 +7,7 @@ The webpage belongs to Fernando Vinagre, an aspiring software engineer, who has 
 Fernando is highly motivated, detail-oriented, and pays attention to detail. He has exceptional interpersonal abilities and a demonstrated track record of establishing trust with colleagues at all levels. Fernando is familiar with software development methodologies such as Agile and Scrum, cloud computing technologies like AWS and Azure, coding languages such as Python, and DevOps tools like Git, among other technical and analytical skills. Fernando holds an MSc in Project Management and a BSc in Structural Engineering.
 
 The webpage also includes links to Fernando's contacts, skills, work experience, education, learning, tech stack, projects, and fun fact.
+
 --------------------------------------------------------------------------------------------------------------------------------------
 
 Created by Fernando Vinagre
