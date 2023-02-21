@@ -1,0 +1,144 @@
+/* This section styles the background image of the web page by setting the image file path, position, and size. */
+body{
+     background-image: url(images/bckground.png);
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+     }
+
+/* This section styles the overall HTML page by setting the height, margin, background color, and font family. */
+html{
+    height: 100%;
+    margin: 20px;
+    background-color: rgba(180, 180, 180, 0.3);
+    font-family: "Franklin Gothic", "Lucinda Sans Regular", "Lucida Grande",
+    "Lucinda Sans Unicode", Geneva, Verdana, sans-serif;
+    }
+
+/* This section styles the greeting text by floating it to the right and aligning the text to the right. */
+.greeting{
+    float: right;
+    text-align: right;
+    font-family: "Helvetica Bold", "Futura", "Roboto",
+    "Modern", Geneva, Verdana, sans-serif;
+    }
+
+/* This section styles the main content of the page by setting the margins, padding, text alignment, font family, and background color. */
+main{
+    margin-right: 3px;
+    margin-left: 3px;
+    padding: 5px;
+    text-align: justify;
+    font-family: "Franklin Gothic", "Lucinda Sans Regular", "Lucida Grande",
+    "Lucinda Sans Unicode", Geneva, Verdana, sans-serif;
+    background-color: rgba(250, 250, 250, 0.9)
+    }
+
+/*This section styles the different sections of the web page by setting the borders, padding, margins, and text alignment.*/
+header, #Contents, #Short-bio, #contacts, #skills, #work-experience, #education, #learning, #tech-stack, #projects, #fun-fact {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    text-align: justify;
+}
+
+/* This section styles the footer of the web page by aligning the text to the center. */
+footer{
+    text-align: center;
+    }
+
+/* This section styles the fieldset elements by aligning the text to the center and setting the background color. */
+fieldset{
+    text-align: center;
+    background-color: rgba(250, 250, 250, 0.9)
+    }
+
+/* This section styles the container of the web page by setting the padding, margins, and background color. */
+.container{
+    padding:10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgba(250, 250, 250, 0.9)
+    }
+
+/* This section styles the h5 elements by aligning the text to the center. */
+h5{
+    text-align: center;
+
+    }
+
+/* This section styles the small elements by setting the padding, text color, width, text alignment, background, cursor, and transform properties. */
+small{
+    padding: 35px;
+    color: black;
+    width: 50%;
+    text-align: right;
+    background: none;
+    cursor: pointer;
+    transform:  color 0.4s linear ;
+    }
+
+
+
+/* This section styles the buttons and buttons group by setting the padding, text color, width, text alignment, background,etc */
+/* Credit to first webdesigner for the main code for the buttons https://1stwebdesigner.com/free-code-snippets-css-buttons/ */
+
+.button{
+      display: inline;
+      zoom: 1;
+      padding: 12px 30px;
+      text-transform: uppercase;
+      margin: 0;
+      cursor: pointer;
+      border: 1px solid #bbb;
+      overflow: visible;
+      font: bold 13px arial, helvetica, sans-serif;
+      text-align:center;
+      text-decoration: none;
+      white-space: wrap;
+      color: #555;
+
+      background-color: #ddd;
+      background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1)), to(rgba(255,255,255,0)));
+      background-image: -webkit-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+      background-image: -moz-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+      background-image: -ms-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+      background-image: -o-linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+      background-image: linear-gradient(top, rgba(255,255,255,1), rgba(255,255,255,0));
+
+      -webkit-transition: background-color .2s ease-out;
+      -moz-transition: background-color .2s ease-out;
+      -ms-transition: background-color .2s ease-out;
+      -o-transition: background-color .2s ease-out;
+      transition: background-color .2s ease-out;
+      background-clip: padding-box;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      border-radius: 8px;
+      -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+      -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+      box-shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 2px 2px -1px rgba(0, 0, 0, .5), 0 1px 0 rgba(255, 255, 255, .3) inset;
+      text-shadow: 0 1px 0 rgba(255,255,255, .9);
+      }
+
+.button:hover{
+      background-color: #eee;
+      color: #555;
+      }
+
+.button-group{
+  font-size: 0;
+  margin: 0;
+  padding: 10px;
+  background: rgba(0, 0, 0, .1);
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  padding: 10px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+
+
+
